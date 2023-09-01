@@ -1,0 +1,179 @@
+
+
+html,body{
+    background: rgb(28,15,242);
+    background: radial-gradient(circle, rgba(28,15,242,1) 0%, rgba(114,114,179,1) 44%, rgba(0,212,255,1) 100%);
+    color: rgb(248, 248, 250);
+    text-decoration-style: double;
+    }
+
+    header{
+        background-color:white;
+        height:60px;
+        width: 100%;
+        position:fixed;
+    }
+
+    #logo{
+        width: 50px;
+        position: absolute;
+        top: 5px;
+        margin-left:1%;
+    }
+
+    #menu{
+    
+        float: right;
+        margin-right: 1%;
+        display: flex inline;   
+        list-style: none;   
+        margin-top: 10px;
+        color: blue;
+    }
+
+    li{
+      
+        padding: 10px 10px 10px 10px;
+    }
+    li:hover{
+        background-color:dodgerblue;
+    }
+
+    
+    #imagemfundo{
+        background: url("imagens/fundo\ azul.jpg");
+        width: auto;
+        padding: 20px;
+        
+    }
+ 
+    
+    p{
+        font-size: larger;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 100px;
+    }
+    
+    #parprimeiro{
+        font-size: 40px;
+    }
+    
+    h2{
+        text-align: center;
+        text-decoration:
+    }
+    
+    .edudequalidade{
+        font-size: 50px;
+    }
+    
+    #parsegundo{
+        font-size: 40px;
+    }
+    
+    .tituloconteudorelacionado{
+        text-align: left;
+    }
+    
+    .imagem{ 
+        margin-left: 200px;
+        padding: 10%;
+        
+    }
+    
+    #educacaodequalidade {  
+    align-items: center;
+    }
+    
+ 
+  
+
+    section{
+        float: left;
+           }
+
+
+
+    .col{
+        width: 40%;
+        float: left;
+        position: relative;
+        padding:0;
+        justify: center
+        display: block
+        
+    }
+
+    .listadeobjetivos{
+      
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 50px;
+        background-color:rgb(85, 97, 97);      
+    }
+    
+    .atividadesemsp{
+        
+        width: 80%;
+        font-size:20px;
+        padding: 30px;
+    }
+    
+    .conteudorelacionado1{
+        padding: 20px;
+        width: 100%;
+        float: left;
+        
+      
+       
+    }
+    #tituloconteudorelacionado{
+        text-align: left;
+        
+    }
+    .justificado{
+        text-align: justify;
+    }
+    
+    .centralizado{
+        text-align: center;
+    }
+
+
+    #video{
+        margin-left: 50px;
+        width: 100%;
+        float: left;
+    
+    }
+    
+    #footersec{
+        width: 30%;
+    }
+
+    #footer{
+       
+        background-color: rgb(124, 207, 240);
+        padding:20px;
+        text-align:left
+        
+        
+    }
+    @media all and (max-width:780px) {
+        #menu{
+            visibility: hidden;
+        }
+    }
+
+    , .conteudorelacionado1, .imagem{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        float: left;
+        text-align: center;
+    }
+
+    
